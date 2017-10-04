@@ -1,0 +1,1090 @@
+Prefix(:=<http://www.semanticweb.org/n4050/ontologies/2017/7/untitled-ontology-189#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.semanticweb.org/n4050/ontologies/2017/7/untitled-ontology-189>
+
+Declaration(Class(:A90_Classic_Dengue))
+Declaration(Class(:A91_Bleeding_Dengue))
+Declaration(Class(:A92.8_Zika))
+Declaration(Class(:A92_Chikungunya))
+Declaration(Class(:Abdominal_Pain_Intense))
+Declaration(Class(:Analgesics))
+Declaration(Class(:Antiemetics))
+Declaration(Class(:Antipruritics))
+Declaration(Class(:Average))
+Declaration(Class(:Average_Fever))
+Declaration(Class(:Average_Pain))
+Declaration(Class(:Beauty_Tiredness))
+Declaration(Class(:Black_Stool))
+Declaration(Class(:Bleeding))
+Declaration(Class(:Bleeding_Dengue_Case))
+Declaration(Class(:Bleeding_Dengue_Treatment))
+Declaration(Class(:Case))
+Declaration(Class(:Chikungunya_Case))
+Declaration(Class(:Chikungunya_Treatment))
+Declaration(Class(:Classic_Dengue_Case))
+Declaration(Class(:Classic_Dengue_Treatment))
+Declaration(Class(:Cold_Pack))
+Declaration(Class(:Conjunctivitis))
+Declaration(Class(:Dengue))
+Declaration(Class(:Diseases))
+Declaration(Class(:Excessive_Thirst))
+Declaration(Class(:Eye_Back_Pain))
+Declaration(Class(:Fever))
+Declaration(Class(:Fluid_Replacement_Therapy))
+Declaration(Class(:Follow_Medical_Advice))
+Declaration(Class(:Follow_Up_Platelets))
+Declaration(Class(:Headache_Intense))
+Declaration(Class(:High))
+Declaration(Class(:High_Fever))
+Declaration(Class(:High_Pain))
+Declaration(Class(:Intense))
+Declaration(Class(:Intense_Pain_Joints))
+Declaration(Class(:Itching))
+Declaration(Class(:Joint_Edema__Periarticular))
+Declaration(Class(:Lack_of_Appetite))
+Declaration(Class(:Light))
+Declaration(Class(:Mental_Confusion))
+Declaration(Class(:Moderate_Exercise_And_Movement))
+Declaration(Class(:Nausea_Vomiting))
+Declaration(Class(:Observation_Clinica_Monitoring))
+Declaration(Class(:Oral_Hydration))
+Declaration(Class(:Partition_Value))
+Declaration(Class(:Red_Stains))
+Declaration(Class(:Respiratory_Distress))
+Declaration(Class(:Rest))
+Declaration(Class(:Shaking))
+Declaration(Class(:Strong))
+Declaration(Class(:Swollen_glands))
+Declaration(Class(:Symptom))
+Declaration(Class(:Treatment))
+Declaration(Class(:Types_Of_Treatment))
+Declaration(Class(:Zika_Case))
+Declaration(Class(:Zika_Treatment))
+Declaration(ObjectProperty(:has_Case_Symptom))
+Declaration(ObjectProperty(:has_Case_Treatment))
+Declaration(ObjectProperty(:has_Disease))
+Declaration(ObjectProperty(:has_Intense_Abdominal_Pain))
+Declaration(ObjectProperty(:has_Intense_Headche))
+Declaration(ObjectProperty(:has_Intense_Joint_Pain))
+Declaration(ObjectProperty(:has_Joint_Edema_Periarticular))
+Declaration(ObjectProperty(:has_Symptom))
+Declaration(ObjectProperty(:has_Treatment))
+Declaration(ObjectProperty(:has_Treatment_Type))
+Declaration(ObjectProperty(:is_Case_Symptom_of))
+Declaration(ObjectProperty(:is_Case_Treatment_of))
+Declaration(ObjectProperty(:is_Disease_of))
+Declaration(ObjectProperty(:is_Intense_Abdominal_Pain_of))
+Declaration(ObjectProperty(:is_Intense_Headche_of))
+Declaration(ObjectProperty(:is_Intense_Joint_Pain_of))
+Declaration(ObjectProperty(:is_Joint_Edema_Periarticular_of))
+Declaration(ObjectProperty(:is_Symptom_of))
+Declaration(ObjectProperty(:is_Treatment_Type_of))
+Declaration(ObjectProperty(:is_Treatment_of))
+Declaration(DataProperty(:has_Addree))
+Declaration(DataProperty(:has_Average_value))
+Declaration(DataProperty(:has_Body_Temperature))
+Declaration(DataProperty(:has_Marital_Status))
+Declaration(DataProperty(:has_Name))
+Declaration(DataProperty(:has_Occupation))
+Declaration(DataProperty(:has_Personal_Info))
+Declaration(DataProperty(:has_Upper_Value))
+Declaration(NamedIndividual(:Agitação))
+Declaration(NamedIndividual(:Agua))
+Declaration(NamedIndividual(:Agua_Coco))
+Declaration(NamedIndividual(:Alizaprida))
+Declaration(NamedIndividual(:Alta_Dor_Articulações))
+Declaration(NamedIndividual(:Alta_Dor_Cabeça))
+Declaration(NamedIndividual(:Anamnese))
+Declaration(NamedIndividual(:Baixa_Dor_periarticular))
+Declaration(NamedIndividual(:Bromoprida))
+Declaration(NamedIndividual(:Carla))
+Declaration(NamedIndividual(:Caso))
+Declaration(NamedIndividual(:Caso1))
+Declaration(NamedIndividual(:Caso10))
+Declaration(NamedIndividual(:Caso11))
+Declaration(NamedIndividual(:Caso12))
+Declaration(NamedIndividual(:Caso2))
+Declaration(NamedIndividual(:Caso3))
+Declaration(NamedIndividual(:Caso4))
+Declaration(NamedIndividual(:Caso5))
+Declaration(NamedIndividual(:Caso6))
+Declaration(NamedIndividual(:Caso7))
+Declaration(NamedIndividual(:Caso8))
+Declaration(NamedIndividual(:Caso9))
+Declaration(NamedIndividual(:Chas))
+Declaration(NamedIndividual(:Confusão_Mental))
+Declaration(NamedIndividual(:Conjuntivite))
+Declaration(NamedIndividual(:Cynthia))
+Declaration(NamedIndividual(:Descansar))
+Declaration(NamedIndividual(:Dificuldades_Respiratorias))
+Declaration(NamedIndividual(:Dipirona))
+Declaration(NamedIndividual(:Doença1))
+Declaration(NamedIndividual(:Doença10))
+Declaration(NamedIndividual(:Doença11))
+Declaration(NamedIndividual(:Doença12))
+Declaration(NamedIndividual(:Doença2))
+Declaration(NamedIndividual(:Doença3))
+Declaration(NamedIndividual(:Doença4))
+Declaration(NamedIndividual(:Doença5))
+Declaration(NamedIndividual(:Doença6))
+Declaration(NamedIndividual(:Doença7))
+Declaration(NamedIndividual(:Doença8))
+Declaration(NamedIndividual(:Doença9))
+Declaration(NamedIndividual(:Dor_Atras_Olhos))
+Declaration(NamedIndividual(:Falta_Apetite))
+Declaration(NamedIndividual(:Febre))
+Declaration(NamedIndividual(:Febre_37_graus))
+Declaration(NamedIndividual(:Febre_40_graus))
+Declaration(NamedIndividual(:Fezes_Pretas))
+Declaration(NamedIndividual(:Fisioterapia))
+Declaration(NamedIndividual(:Forte_Dor_Abdominal))
+Declaration(NamedIndividual(:Glandulas_Inchadas))
+Declaration(NamedIndividual(:Hemorragias_Boca))
+Declaration(NamedIndividual(:Hemorragias_Gengivas))
+Declaration(NamedIndividual(:Intença-Dor_periarticular))
+Declaration(NamedIndividual(:Julio))
+Declaration(NamedIndividual(:Manchas_Vermelhas))
+Declaration(NamedIndividual(:Manchas_Vermelhas_Pele))
+Declaration(NamedIndividual(:Maria))
+Declaration(NamedIndividual(:Media_Dor_Articulações))
+Declaration(NamedIndividual(:Media_dor_Cabeça))
+Declaration(NamedIndividual(:Metoclopramida))
+Declaration(NamedIndividual(:Moleza_Cansaço))
+Declaration(NamedIndividual(:Nauseas))
+Declaration(NamedIndividual(:Nauseas_Vomitos))
+Declaration(NamedIndividual(:Paracetamol))
+Declaration(NamedIndividual(:Prurido))
+Declaration(NamedIndividual(:Sede_Excessiva))
+Declaration(NamedIndividual(:Sintomas))
+Declaration(NamedIndividual(:Soro_Caseiro))
+Declaration(NamedIndividual(:Soros_caseiros))
+Declaration(NamedIndividual(:Sucos))
+Declaration(NamedIndividual(:Sucos_))
+Declaration(NamedIndividual(:Tratamento1))
+Declaration(NamedIndividual(:Tratamento10))
+Declaration(NamedIndividual(:Tratamento11))
+Declaration(NamedIndividual(:Tratamento12))
+Declaration(NamedIndividual(:Tratamento2))
+Declaration(NamedIndividual(:Tratamento3))
+Declaration(NamedIndividual(:Tratamento4))
+Declaration(NamedIndividual(:Tratamento5))
+Declaration(NamedIndividual(:Tratamento6))
+Declaration(NamedIndividual(:Tratamento7))
+Declaration(NamedIndividual(:Tratamento8))
+Declaration(NamedIndividual(:Tratamento9))
+Declaration(NamedIndividual(:Vomitos))
+Declaration(NamedIndividual(:_Descansar))
+Declaration(NamedIndividual(:_Sucos))
+Declaration(NamedIndividual(:banhos_frios))
+Declaration(NamedIndividual(:carla))
+Declaration(NamedIndividual(:caso))
+Declaration(NamedIndividual(:dipirona))
+Declaration(NamedIndividual(:doença))
+Declaration(NamedIndividual(:doença1))
+Declaration(NamedIndividual(:doença11))
+Declaration(NamedIndividual(:doença111))
+Declaration(NamedIndividual(:luana))
+Declaration(NamedIndividual(:nobo))
+Declaration(NamedIndividual(:trtamentobanca))
+Declaration(NamedIndividual(:umadoençaa))
+Declaration(NamedIndividual(:umtartamento))
+Declaration(NamedIndividual(:umtratamento))
+Declaration(NamedIndividual(:Água))
+Declaration(NamedIndividual(<http://www.semanticweb.org/n4050/ontologies/2017/7/untitled-ontology-189#1>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/n4050/ontologies/2017/7/untitled-ontology-189#2>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/n4050/ontologies/2017/7/untitled-ontology-189#3>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/n4050/ontologies/2017/7/untitled-ontology-189#4>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/n4050/ontologies/2017/7/untitled-ontology-189#5>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/n4050/ontologies/2017/7/untitled-ontology-189#8>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/n4050/ontologies/2017/7/untitled-ontology-189#9>))
+
+############################
+#   Object Properties
+############################
+
+# Object Property: :has_Case_Symptom (:has_Case_Symptom)
+
+InverseObjectProperties(:has_Case_Symptom :is_Case_Symptom_of)
+IrreflexiveObjectProperty(:has_Case_Symptom)
+ObjectPropertyDomain(:has_Case_Symptom :Case)
+ObjectPropertyRange(:has_Case_Symptom :Symptom)
+
+# Object Property: :has_Case_Treatment (:has_Case_Treatment)
+
+InverseObjectProperties(:has_Case_Treatment :is_Case_Treatment_of)
+FunctionalObjectProperty(:has_Case_Treatment)
+ObjectPropertyDomain(:has_Case_Treatment :Case)
+ObjectPropertyRange(:has_Case_Treatment :Types_Of_Treatment)
+
+# Object Property: :has_Disease (:has_Disease)
+
+InverseObjectProperties(:has_Disease :is_Disease_of)
+FunctionalObjectProperty(:has_Disease)
+ObjectPropertyDomain(:has_Disease :Case)
+ObjectPropertyRange(:has_Disease :Diseases)
+
+# Object Property: :has_Intense_Abdominal_Pain (:has_Intense_Abdominal_Pain)
+
+InverseObjectProperties(:has_Intense_Abdominal_Pain :is_Intense_Abdominal_Pain_of)
+FunctionalObjectProperty(:has_Intense_Abdominal_Pain)
+ObjectPropertyDomain(:has_Intense_Abdominal_Pain :Diseases)
+ObjectPropertyRange(:has_Intense_Abdominal_Pain :Abdominal_Pain_Intense)
+
+# Object Property: :has_Intense_Headche (:has_Intense_Headche)
+
+InverseObjectProperties(:has_Intense_Headche :is_Intense_Headche_of)
+FunctionalObjectProperty(:has_Intense_Headche)
+ObjectPropertyDomain(:has_Intense_Headche :Diseases)
+ObjectPropertyRange(:has_Intense_Headche :Headache_Intense)
+
+# Object Property: :has_Intense_Joint_Pain (:has_Intense_Joint_Pain)
+
+InverseObjectProperties(:has_Intense_Joint_Pain :is_Intense_Joint_Pain_of)
+FunctionalObjectProperty(:has_Intense_Joint_Pain)
+ObjectPropertyDomain(:has_Intense_Joint_Pain :Diseases)
+ObjectPropertyRange(:has_Intense_Joint_Pain :Intense_Pain_Joints)
+
+# Object Property: :has_Joint_Edema_Periarticular (:has_Joint_Edema_Periarticular)
+
+InverseObjectProperties(:has_Joint_Edema_Periarticular :is_Joint_Edema_Periarticular_of)
+ObjectPropertyDomain(:has_Joint_Edema_Periarticular :Diseases)
+ObjectPropertyRange(:has_Joint_Edema_Periarticular :Joint_Edema__Periarticular)
+
+# Object Property: :has_Symptom (:has_Symptom)
+
+InverseObjectProperties(:has_Symptom :is_Symptom_of)
+IrreflexiveObjectProperty(:has_Symptom)
+ObjectPropertyDomain(:has_Symptom :Diseases)
+ObjectPropertyRange(:has_Symptom :Symptom)
+
+# Object Property: :has_Treatment (:has_Treatment)
+
+InverseObjectProperties(:has_Treatment :is_Treatment_of)
+IrreflexiveObjectProperty(:has_Treatment)
+ObjectPropertyDomain(:has_Treatment :Types_Of_Treatment)
+ObjectPropertyRange(:has_Treatment :Treatment)
+
+# Object Property: :has_Treatment_Type (:has_Treatment_Type)
+
+InverseObjectProperties(:has_Treatment_Type :is_Treatment_Type_of)
+FunctionalObjectProperty(:has_Treatment_Type)
+ObjectPropertyDomain(:has_Treatment_Type :Diseases)
+ObjectPropertyRange(:has_Treatment_Type :Types_Of_Treatment)
+
+# Object Property: :is_Case_Symptom_of (:is_Case_Symptom_of)
+
+ObjectPropertyDomain(:is_Case_Symptom_of :Symptom)
+ObjectPropertyRange(:is_Case_Symptom_of :Case)
+
+# Object Property: :is_Symptom_of (:is_Symptom_of)
+
+ObjectPropertyDomain(:is_Symptom_of :Symptom)
+ObjectPropertyRange(:is_Symptom_of :Diseases)
+
+# Object Property: :is_Treatment_of (:is_Treatment_of)
+
+ObjectPropertyDomain(:is_Treatment_of :Treatment)
+ObjectPropertyRange(:is_Treatment_of :Types_Of_Treatment)
+
+
+############################
+#   Data Properties
+############################
+
+# Data Property: :has_Addree (:has_Addree)
+
+SubDataPropertyOf(:has_Addree :has_Personal_Info)
+DataPropertyDomain(:has_Addree :Case)
+DataPropertyRange(:has_Addree xsd:string)
+
+# Data Property: :has_Average_value (:has_Average_value)
+
+SubDataPropertyOf(:has_Average_value :has_Body_Temperature)
+DataPropertyDomain(:has_Average_value :Average_Fever)
+DataPropertyRange(:has_Average_value xsd:double)
+
+# Data Property: :has_Body_Temperature (:has_Body_Temperature)
+
+DataPropertyDomain(:has_Body_Temperature :Fever)
+DataPropertyRange(:has_Body_Temperature xsd:double)
+
+# Data Property: :has_Marital_Status (:has_Marital_Status)
+
+SubDataPropertyOf(:has_Marital_Status :has_Personal_Info)
+DataPropertyDomain(:has_Marital_Status :Case)
+DataPropertyRange(:has_Marital_Status xsd:string)
+
+# Data Property: :has_Name (:has_Name)
+
+SubDataPropertyOf(:has_Name :has_Personal_Info)
+DataPropertyDomain(:has_Name :Case)
+DataPropertyRange(:has_Name xsd:string)
+
+# Data Property: :has_Occupation (:has_Occupation)
+
+SubDataPropertyOf(:has_Occupation :has_Personal_Info)
+DataPropertyDomain(:has_Occupation :Case)
+DataPropertyRange(:has_Occupation xsd:string)
+
+# Data Property: :has_Personal_Info (:has_Personal_Info)
+
+DataPropertyDomain(:has_Personal_Info :Case)
+DataPropertyRange(:has_Personal_Info xsd:string)
+
+# Data Property: :has_Upper_Value (:has_Upper_Value)
+
+SubDataPropertyOf(:has_Upper_Value :has_Body_Temperature)
+DataPropertyDomain(:has_Upper_Value :High_Fever)
+DataPropertyRange(:has_Upper_Value xsd:double)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: :A90_Classic_Dengue (:A90_Classic_Dengue)
+
+EquivalentClasses(:A90_Classic_Dengue ObjectIntersectionOf(:Dengue ObjectSomeValuesFrom(:has_Intense_Headche :High) ObjectSomeValuesFrom(:has_Intense_Joint_Pain :Average_Pain) ObjectSomeValuesFrom(:has_Symptom :Beauty_Tiredness) ObjectSomeValuesFrom(:has_Symptom :Eye_Back_Pain) ObjectSomeValuesFrom(:has_Symptom :High_Fever) ObjectSomeValuesFrom(:has_Symptom :Lack_of_Appetite) ObjectSomeValuesFrom(:has_Symptom :Nausea_Vomiting) ObjectSomeValuesFrom(:has_Symptom :Red_Stains) ObjectAllValuesFrom(:has_Symptom ObjectUnionOf(:Average_Pain :Beauty_Tiredness :Eye_Back_Pain :High :High_Fever :Lack_of_Appetite :Nausea_Vomiting :Red_Stains))))
+DisjointClasses(:A90_Classic_Dengue :A91_Bleeding_Dengue)
+
+# Class: :A91_Bleeding_Dengue (:A91_Bleeding_Dengue)
+
+AnnotationAssertion(rdfs:comment :A91_Bleeding_Dengue "A90-Classificação Internacional: Dengue Hemorragica")
+SubClassOf(:A91_Bleeding_Dengue :Dengue)
+SubClassOf(:A91_Bleeding_Dengue ObjectSomeValuesFrom(:has_Intense_Headche :High))
+SubClassOf(:A91_Bleeding_Dengue ObjectSomeValuesFrom(:has_Symptom :Beauty_Tiredness))
+SubClassOf(:A91_Bleeding_Dengue ObjectSomeValuesFrom(:has_Symptom :Black_Stool))
+SubClassOf(:A91_Bleeding_Dengue ObjectSomeValuesFrom(:has_Symptom :Bleeding))
+SubClassOf(:A91_Bleeding_Dengue ObjectSomeValuesFrom(:has_Symptom :Excessive_Thirst))
+SubClassOf(:A91_Bleeding_Dengue ObjectSomeValuesFrom(:has_Symptom :Lack_of_Appetite))
+SubClassOf(:A91_Bleeding_Dengue ObjectSomeValuesFrom(:has_Symptom :Mental_Confusion))
+SubClassOf(:A91_Bleeding_Dengue ObjectSomeValuesFrom(:has_Symptom :Nausea_Vomiting))
+SubClassOf(:A91_Bleeding_Dengue ObjectSomeValuesFrom(:has_Symptom :Red_Stains))
+SubClassOf(:A91_Bleeding_Dengue ObjectSomeValuesFrom(:has_Symptom :Respiratory_Distress))
+SubClassOf(:A91_Bleeding_Dengue ObjectSomeValuesFrom(:has_Symptom :Shaking))
+SubClassOf(:A91_Bleeding_Dengue ObjectSomeValuesFrom(:has_Symptom :Strong))
+SubClassOf(:A91_Bleeding_Dengue ObjectSomeValuesFrom(:has_Symptom :Swollen_glands))
+SubClassOf(:A91_Bleeding_Dengue ObjectAllValuesFrom(:has_Symptom ObjectUnionOf(:Beauty_Tiredness :Black_Stool :Bleeding :Excessive_Thirst :High :Lack_of_Appetite :Mental_Confusion :Nausea_Vomiting :Red_Stains :Respiratory_Distress :Shaking :Strong :Swollen_glands)))
+
+# Class: :A92.8_Zika (:A92.8_Zika)
+
+AnnotationAssertion(rdfs:comment :A92.8_Zika "Classificação Internacional da Doença Zika")
+EquivalentClasses(:A92.8_Zika ObjectIntersectionOf(:Diseases ObjectSomeValuesFrom(:has_Intense_Headche :Average) ObjectSomeValuesFrom(:has_Intense_Joint_Pain :Average_Pain) ObjectSomeValuesFrom(:has_Symptom :Average_Fever) ObjectSomeValuesFrom(:has_Symptom :Beauty_Tiredness) ObjectSomeValuesFrom(:has_Symptom :Conjunctivitis) ObjectSomeValuesFrom(:has_Symptom :Itching) ObjectSomeValuesFrom(:has_Symptom :Lack_of_Appetite) ObjectSomeValuesFrom(:has_Symptom :Nausea_Vomiting) ObjectSomeValuesFrom(:has_Symptom :Red_Stains) ObjectAllValuesFrom(:has_Symptom ObjectUnionOf(:Average_Fever :Beauty_Tiredness :Conjunctivitis :Itching :Lack_of_Appetite :Nausea_Vomiting :Red_Stains))))
+
+# Class: :A92_Chikungunya (:A92_Chikungunya)
+
+EquivalentClasses(:A92_Chikungunya ObjectIntersectionOf(:Diseases ObjectSomeValuesFrom(:has_Intense_Headche :High) ObjectSomeValuesFrom(:has_Intense_Joint_Pain :High_Pain) ObjectSomeValuesFrom(:has_Joint_Edema_Periarticular :Intense) ObjectSomeValuesFrom(:has_Symptom :Beauty_Tiredness) ObjectSomeValuesFrom(:has_Symptom :High_Fever) ObjectSomeValuesFrom(:has_Symptom :Lack_of_Appetite) ObjectSomeValuesFrom(:has_Symptom :Nausea_Vomiting) ObjectSomeValuesFrom(:has_Symptom :Red_Stains) ObjectAllValuesFrom(:has_Symptom ObjectUnionOf(:Beauty_Tiredness :High :High_Fever :High_Pain :Intense :Nausea_Vomiting :Red_Stains))))
+
+# Class: :Abdominal_Pain_Intense (:Abdominal_Pain_Intense)
+
+AnnotationAssertion(rdfs:comment :Abdominal_Pain_Intense "Intensidade Dor Abdominal")
+SubClassOf(:Abdominal_Pain_Intense :Partition_Value)
+
+# Class: :Analgesics (:Analgesics)
+
+SubClassOf(:Analgesics :Treatment)
+SubClassOf(:Analgesics ObjectSomeValuesFrom(:is_Treatment_of :Classic_Dengue_Treatment))
+SubClassOf(:Analgesics ObjectSomeValuesFrom(:is_Treatment_of :Zika_Treatment))
+
+# Class: :Antiemetics (:Antiemetics)
+
+AnnotationAssertion(rdfs:comment :Antiemetics "Antiemeticos")
+SubClassOf(:Antiemetics :Treatment)
+SubClassOf(:Antiemetics ObjectSomeValuesFrom(:is_Treatment_of :Zika_Treatment))
+
+# Class: :Antipruritics (:Antipruritics)
+
+AnnotationAssertion(rdfs:comment :Antipruritics "Antipruriginosos")
+SubClassOf(:Antipruritics :Treatment)
+SubClassOf(:Antipruritics ObjectSomeValuesFrom(:is_Treatment_of :Zika_Treatment))
+
+# Class: :Average (:Average)
+
+SubClassOf(:Average :Headache_Intense)
+SubClassOf(:Average ObjectAllValuesFrom(:is_Case_Symptom_of :Zika_Case))
+SubClassOf(:Average ObjectAllValuesFrom(:is_Symptom_of :A92.8_Zika))
+DisjointClasses(:Average :High)
+
+# Class: :Average_Fever (:Average_Fever)
+
+SubClassOf(:Average_Fever :Fever)
+SubClassOf(:Average_Fever ObjectSomeValuesFrom(:is_Case_Symptom_of :Zika_Case))
+SubClassOf(:Average_Fever ObjectSomeValuesFrom(:is_Symptom_of :A92.8_Zika))
+SubClassOf(:Average_Fever DataSomeValuesFrom(:has_Average_value DataIntersectionOf(DatatypeRestriction(xsd:double xsd:minInclusive "37.0"^^xsd:double) DatatypeRestriction(xsd:double xsd:maxExclusive "39.0"^^xsd:double))))
+DisjointClasses(:Average_Fever :High_Fever)
+DisjointClasses(:Average_Fever :Intense_Pain_Joints)
+
+# Class: :Average_Pain (:Average_Pain)
+
+AnnotationAssertion(rdfs:comment :Average_Pain "MediaDor")
+SubClassOf(:Average_Pain :Intense_Pain_Joints)
+SubClassOf(:Average_Pain ObjectSomeValuesFrom(:is_Case_Symptom_of :Classic_Dengue_Case))
+SubClassOf(:Average_Pain ObjectSomeValuesFrom(:is_Case_Symptom_of :Zika_Case))
+SubClassOf(:Average_Pain ObjectSomeValuesFrom(:is_Symptom_of :A90_Classic_Dengue))
+SubClassOf(:Average_Pain ObjectSomeValuesFrom(:is_Symptom_of :A92.8_Zika))
+DisjointClasses(:Average_Pain :Headache_Intense)
+DisjointClasses(:Average_Pain :High)
+
+# Class: :Beauty_Tiredness (:Beauty_Tiredness)
+
+AnnotationAssertion(rdfs:comment :Beauty_Tiredness "Moleza_Cansaço")
+SubClassOf(:Beauty_Tiredness :Symptom)
+SubClassOf(:Beauty_Tiredness ObjectSomeValuesFrom(:is_Case_Symptom_of :Bleeding_Dengue_Case))
+SubClassOf(:Beauty_Tiredness ObjectSomeValuesFrom(:is_Case_Symptom_of :Chikungunya_Case))
+SubClassOf(:Beauty_Tiredness ObjectSomeValuesFrom(:is_Case_Symptom_of :Classic_Dengue_Case))
+SubClassOf(:Beauty_Tiredness ObjectSomeValuesFrom(:is_Case_Symptom_of :Zika_Case))
+SubClassOf(:Beauty_Tiredness ObjectSomeValuesFrom(:is_Symptom_of :A90_Classic_Dengue))
+SubClassOf(:Beauty_Tiredness ObjectSomeValuesFrom(:is_Symptom_of :A91_Bleeding_Dengue))
+SubClassOf(:Beauty_Tiredness ObjectSomeValuesFrom(:is_Symptom_of :A92.8_Zika))
+SubClassOf(:Beauty_Tiredness ObjectSomeValuesFrom(:is_Symptom_of :A92_Chikungunya))
+
+# Class: :Black_Stool (:Black_Stool)
+
+AnnotationAssertion(rdfs:comment :Black_Stool "Fezes Pretas")
+SubClassOf(:Black_Stool :Symptom)
+SubClassOf(:Black_Stool ObjectAllValuesFrom(:is_Case_Symptom_of :Bleeding_Dengue_Case))
+SubClassOf(:Black_Stool ObjectAllValuesFrom(:is_Symptom_of :A91_Bleeding_Dengue))
+
+# Class: :Bleeding (:Bleeding)
+
+AnnotationAssertion(rdfs:comment :Bleeding "Hemorragias")
+SubClassOf(:Bleeding :Symptom)
+SubClassOf(:Bleeding ObjectAllValuesFrom(:is_Case_Symptom_of :Bleeding_Dengue_Case))
+SubClassOf(:Bleeding ObjectAllValuesFrom(:is_Symptom_of :A91_Bleeding_Dengue))
+
+# Class: :Bleeding_Dengue_Case (:Bleeding_Dengue_Case)
+
+EquivalentClasses(:Bleeding_Dengue_Case ObjectIntersectionOf(:Case ObjectAllValuesFrom(:has_Case_Treatment :Bleeding_Dengue_Treatment) ObjectAllValuesFrom(:has_Disease :A91_Bleeding_Dengue)))
+DisjointClasses(:Bleeding_Dengue_Case :Chikungunya_Case)
+DisjointClasses(:Bleeding_Dengue_Case :Classic_Dengue_Case)
+DisjointClasses(:Bleeding_Dengue_Case :Zika_Case)
+
+# Class: :Bleeding_Dengue_Treatment (:Bleeding_Dengue_Treatment)
+
+SubClassOf(:Bleeding_Dengue_Treatment :Types_Of_Treatment)
+SubClassOf(:Bleeding_Dengue_Treatment ObjectSomeValuesFrom(:has_Treatment :Fluid_Replacement_Therapy))
+SubClassOf(:Bleeding_Dengue_Treatment ObjectSomeValuesFrom(:has_Treatment :Follow_Medical_Advice))
+SubClassOf(:Bleeding_Dengue_Treatment ObjectSomeValuesFrom(:has_Treatment :Observation_Clinica_Monitoring))
+SubClassOf(:Bleeding_Dengue_Treatment ObjectSomeValuesFrom(:has_Treatment :Oral_Hydration))
+SubClassOf(:Bleeding_Dengue_Treatment ObjectSomeValuesFrom(:has_Treatment :Rest))
+DisjointClasses(:Bleeding_Dengue_Treatment :Classic_Dengue_Treatment)
+
+# Class: :Case (:Case)
+
+SubClassOf(:Case DataSomeValuesFrom(:has_Personal_Info xsd:string))
+DisjointClasses(:Case :Diseases)
+DisjointClasses(:Case :Symptom)
+DisjointClasses(:Case :Treatment)
+DisjointClasses(:Case :Types_Of_Treatment)
+
+# Class: :Chikungunya_Case (:Chikungunya_Case)
+
+EquivalentClasses(:Chikungunya_Case ObjectIntersectionOf(:Case ObjectAllValuesFrom(:has_Case_Treatment :Chikungunya_Treatment) ObjectAllValuesFrom(:has_Disease :A92_Chikungunya)))
+DisjointClasses(:Chikungunya_Case :Classic_Dengue_Case)
+DisjointClasses(:Chikungunya_Case :Zika_Case)
+
+# Class: :Chikungunya_Treatment (:Chikungunya_Treatment)
+
+SubClassOf(:Chikungunya_Treatment :Types_Of_Treatment)
+SubClassOf(:Chikungunya_Treatment ObjectSomeValuesFrom(:has_Treatment :Analgesics))
+SubClassOf(:Chikungunya_Treatment ObjectSomeValuesFrom(:has_Treatment :Antiemetics))
+SubClassOf(:Chikungunya_Treatment ObjectSomeValuesFrom(:has_Treatment :Cold_Pack))
+SubClassOf(:Chikungunya_Treatment ObjectSomeValuesFrom(:has_Treatment :Follow_Medical_Advice))
+SubClassOf(:Chikungunya_Treatment ObjectSomeValuesFrom(:has_Treatment :Moderate_Exercise_And_Movement))
+SubClassOf(:Chikungunya_Treatment ObjectSomeValuesFrom(:has_Treatment :Oral_Hydration))
+SubClassOf(:Chikungunya_Treatment ObjectSomeValuesFrom(:has_Treatment :Rest))
+
+# Class: :Classic_Dengue_Case (:Classic_Dengue_Case)
+
+EquivalentClasses(:Classic_Dengue_Case ObjectIntersectionOf(:Case ObjectAllValuesFrom(:has_Case_Treatment :Classic_Dengue_Treatment) ObjectAllValuesFrom(:has_Disease :A90_Classic_Dengue)))
+DisjointClasses(:Classic_Dengue_Case :Zika_Case)
+
+# Class: :Classic_Dengue_Treatment (:Classic_Dengue_Treatment)
+
+SubClassOf(:Classic_Dengue_Treatment :Types_Of_Treatment)
+SubClassOf(:Classic_Dengue_Treatment ObjectSomeValuesFrom(:has_Treatment :Analgesics))
+SubClassOf(:Classic_Dengue_Treatment ObjectSomeValuesFrom(:has_Treatment :Antiemetics))
+SubClassOf(:Classic_Dengue_Treatment ObjectSomeValuesFrom(:has_Treatment :Antipruritics))
+SubClassOf(:Classic_Dengue_Treatment ObjectSomeValuesFrom(:has_Treatment :Follow_Medical_Advice))
+SubClassOf(:Classic_Dengue_Treatment ObjectSomeValuesFrom(:has_Treatment :Follow_Up_Platelets))
+SubClassOf(:Classic_Dengue_Treatment ObjectSomeValuesFrom(:has_Treatment :Oral_Hydration))
+SubClassOf(:Classic_Dengue_Treatment ObjectSomeValuesFrom(:has_Treatment :Rest))
+
+# Class: :Cold_Pack (:Cold_Pack)
+
+AnnotationAssertion(rdfs:comment :Cold_Pack "Utilizar compressas frias para redução de
+danos articulares.")
+SubClassOf(:Cold_Pack :Treatment)
+SubClassOf(:Cold_Pack ObjectSomeValuesFrom(:is_Treatment_of :Chikungunya_Treatment))
+
+# Class: :Conjunctivitis (:Conjunctivitis)
+
+AnnotationAssertion(rdfs:comment :Conjunctivitis "Conjuntivite")
+SubClassOf(:Conjunctivitis :Symptom)
+SubClassOf(:Conjunctivitis ObjectAllValuesFrom(:is_Case_Symptom_of :Zika_Case))
+SubClassOf(:Conjunctivitis ObjectAllValuesFrom(:is_Symptom_of :A92.8_Zika))
+
+# Class: :Dengue (:Dengue)
+
+EquivalentClasses(:Dengue ObjectIntersectionOf(:Diseases ObjectUnionOf(:A90_Classic_Dengue :A91_Bleeding_Dengue)))
+
+# Class: :Diseases (:Diseases)
+
+DisjointClasses(:Diseases :Partition_Value)
+DisjointClasses(:Diseases :Types_Of_Treatment)
+
+# Class: :Excessive_Thirst (:Excessive_Thirst)
+
+AnnotationAssertion(rdfs:comment :Excessive_Thirst "Sede Excessiva")
+SubClassOf(:Excessive_Thirst :Symptom)
+SubClassOf(:Excessive_Thirst ObjectAllValuesFrom(:is_Case_Symptom_of :Bleeding_Dengue_Case))
+SubClassOf(:Excessive_Thirst ObjectAllValuesFrom(:is_Symptom_of :A91_Bleeding_Dengue))
+
+# Class: :Eye_Back_Pain (:Eye_Back_Pain)
+
+AnnotationAssertion(rdfs:comment :Eye_Back_Pain "Dor Atras Olhos")
+SubClassOf(:Eye_Back_Pain :Symptom)
+SubClassOf(:Eye_Back_Pain ObjectAllValuesFrom(:is_Case_Symptom_of :Classic_Dengue_Case))
+SubClassOf(:Eye_Back_Pain ObjectAllValuesFrom(:is_Symptom_of :A90_Classic_Dengue))
+
+# Class: :Fever (:Fever)
+
+AnnotationAssertion(rdfs:comment :Fever "Febre")
+SubClassOf(:Fever :Symptom)
+
+# Class: :Fluid_Replacement_Therapy (:Fluid_Replacement_Therapy)
+
+AnnotationAssertion(rdfs:comment :Fluid_Replacement_Therapy "Terapia de reposição de fluidos")
+SubClassOf(:Fluid_Replacement_Therapy :Treatment)
+SubClassOf(:Fluid_Replacement_Therapy ObjectSomeValuesFrom(:is_Treatment_of :Bleeding_Dengue_Treatment))
+
+# Class: :Follow_Medical_Advice (:Follow_Medical_Advice)
+
+AnnotationAssertion(rdfs:comment :Follow_Medical_Advice "Seguir orientações emdicas")
+SubClassOf(:Follow_Medical_Advice :Treatment)
+SubClassOf(:Follow_Medical_Advice ObjectSomeValuesFrom(:is_Treatment_of :Chikungunya_Treatment))
+SubClassOf(:Follow_Medical_Advice ObjectSomeValuesFrom(:is_Treatment_of :Classic_Dengue_Treatment))
+SubClassOf(:Follow_Medical_Advice ObjectSomeValuesFrom(:is_Treatment_of :Zika_Treatment))
+
+# Class: :Follow_Up_Platelets (:Follow_Up_Platelets)
+
+AnnotationAssertion(rdfs:comment :Follow_Up_Platelets "Acompanhamento das Plaquetas")
+SubClassOf(:Follow_Up_Platelets :Treatment)
+SubClassOf(:Follow_Up_Platelets ObjectSomeValuesFrom(:is_Treatment_of :Bleeding_Dengue_Treatment))
+SubClassOf(:Follow_Up_Platelets ObjectSomeValuesFrom(:is_Treatment_of :Chikungunya_Treatment))
+SubClassOf(:Follow_Up_Platelets ObjectSomeValuesFrom(:is_Treatment_of :Classic_Dengue_Treatment))
+SubClassOf(:Follow_Up_Platelets ObjectSomeValuesFrom(:is_Treatment_of :Zika_Treatment))
+
+# Class: :Headache_Intense (:Headache_Intense)
+
+AnnotationAssertion(rdfs:comment :Headache_Intense "Intensidade Dor Cabeça")
+SubClassOf(:Headache_Intense :Partition_Value)
+
+# Class: :High (:High)
+
+SubClassOf(:High :Headache_Intense)
+SubClassOf(:High ObjectSomeValuesFrom(:is_Case_Symptom_of :Chikungunya_Case))
+SubClassOf(:High ObjectSomeValuesFrom(:is_Case_Symptom_of :Classic_Dengue_Case))
+SubClassOf(:High ObjectSomeValuesFrom(:is_Symptom_of :A90_Classic_Dengue))
+SubClassOf(:High ObjectSomeValuesFrom(:is_Symptom_of :A92_Chikungunya))
+
+# Class: :High_Fever (:High_Fever)
+
+SubClassOf(:High_Fever :Fever)
+SubClassOf(:High_Fever ObjectSomeValuesFrom(:is_Case_Symptom_of :Bleeding_Dengue_Case))
+SubClassOf(:High_Fever ObjectSomeValuesFrom(:is_Case_Symptom_of :Chikungunya_Case))
+SubClassOf(:High_Fever ObjectSomeValuesFrom(:is_Case_Symptom_of :Classic_Dengue_Case))
+SubClassOf(:High_Fever ObjectSomeValuesFrom(:is_Symptom_of :A90_Classic_Dengue))
+SubClassOf(:High_Fever ObjectSomeValuesFrom(:is_Symptom_of :A91_Bleeding_Dengue))
+SubClassOf(:High_Fever ObjectSomeValuesFrom(:is_Symptom_of :A92_Chikungunya))
+SubClassOf(:High_Fever DataSomeValuesFrom(:has_Body_Temperature DatatypeRestriction(xsd:double xsd:minInclusive "39.0"^^xsd:double)))
+
+# Class: :High_Pain (:High_Pain)
+
+SubClassOf(:High_Pain :Intense_Pain_Joints)
+SubClassOf(:High_Pain ObjectAllValuesFrom(:is_Case_Symptom_of :Chikungunya_Case))
+SubClassOf(:High_Pain ObjectAllValuesFrom(:is_Intense_Abdominal_Pain_of :A92_Chikungunya))
+
+# Class: :Intense (:Intense)
+
+AnnotationAssertion(rdfs:comment :Intense "Intenso")
+SubClassOf(:Intense :Joint_Edema__Periarticular)
+SubClassOf(:Intense ObjectAllValuesFrom(:is_Case_Symptom_of :Chikungunya_Case))
+SubClassOf(:Intense ObjectAllValuesFrom(:is_Joint_Edema_Periarticular_of :A92_Chikungunya))
+DisjointClasses(:Intense :Light)
+
+# Class: :Intense_Pain_Joints (:Intense_Pain_Joints)
+
+AnnotationAssertion(rdfs:comment :Intense_Pain_Joints "Intensidade Dor Articulações")
+SubClassOf(:Intense_Pain_Joints :Partition_Value)
+
+# Class: :Itching (:Itching)
+
+AnnotationAssertion(rdfs:comment :Itching "Prurido")
+SubClassOf(:Itching :Symptom)
+SubClassOf(:Itching ObjectAllValuesFrom(:is_Case_Symptom_of :Zika_Case))
+SubClassOf(:Itching ObjectAllValuesFrom(:is_Symptom_of :A92.8_Zika))
+
+# Class: :Joint_Edema__Periarticular (:Joint_Edema__Periarticular)
+
+SubClassOf(:Joint_Edema__Periarticular :Partition_Value)
+
+# Class: :Lack_of_Appetite (:Lack_of_Appetite)
+
+AnnotationAssertion(rdfs:comment :Lack_of_Appetite "Falta de Apetite")
+SubClassOf(:Lack_of_Appetite :Symptom)
+SubClassOf(:Lack_of_Appetite ObjectSomeValuesFrom(:is_Case_Symptom_of :Bleeding_Dengue_Case))
+SubClassOf(:Lack_of_Appetite ObjectSomeValuesFrom(:is_Case_Symptom_of :Chikungunya_Case))
+SubClassOf(:Lack_of_Appetite ObjectSomeValuesFrom(:is_Case_Symptom_of :Classic_Dengue_Case))
+SubClassOf(:Lack_of_Appetite ObjectSomeValuesFrom(:is_Case_Symptom_of :Zika_Case))
+SubClassOf(:Lack_of_Appetite ObjectSomeValuesFrom(:is_Symptom_of :A90_Classic_Dengue))
+SubClassOf(:Lack_of_Appetite ObjectSomeValuesFrom(:is_Symptom_of :A91_Bleeding_Dengue))
+SubClassOf(:Lack_of_Appetite ObjectSomeValuesFrom(:is_Symptom_of :A92.8_Zika))
+SubClassOf(:Lack_of_Appetite ObjectSomeValuesFrom(:is_Symptom_of :A92_Chikungunya))
+
+# Class: :Light (:Light)
+
+AnnotationAssertion(rdfs:comment :Light "Leve")
+SubClassOf(:Light :Joint_Edema__Periarticular)
+SubClassOf(:Light ObjectAllValuesFrom(:is_Case_Symptom_of :Zika_Case))
+SubClassOf(:Light ObjectAllValuesFrom(:is_Symptom_of :A92.8_Zika))
+
+# Class: :Mental_Confusion (:Mental_Confusion)
+
+AnnotationAssertion(rdfs:comment :Mental_Confusion "Confusão Mental")
+SubClassOf(:Mental_Confusion :Symptom)
+SubClassOf(:Mental_Confusion ObjectAllValuesFrom(:is_Case_Symptom_of :Bleeding_Dengue_Case))
+SubClassOf(:Mental_Confusion ObjectAllValuesFrom(:is_Symptom_of :A91_Bleeding_Dengue))
+
+# Class: :Moderate_Exercise_And_Movement (:Moderate_Exercise_And_Movement)
+
+AnnotationAssertion(rdfs:comment :Moderate_Exercise_And_Movement "Movimento e exercício moderado")
+SubClassOf(:Moderate_Exercise_And_Movement :Treatment)
+SubClassOf(:Moderate_Exercise_And_Movement ObjectSomeValuesFrom(:is_Treatment_of :Chikungunya_Treatment))
+
+# Class: :Nausea_Vomiting (:Nausea_Vomiting)
+
+AnnotationAssertion(rdfs:comment :Nausea_Vomiting "Nauseas_Vomitos")
+SubClassOf(:Nausea_Vomiting :Symptom)
+SubClassOf(:Nausea_Vomiting ObjectSomeValuesFrom(:is_Case_Symptom_of :Bleeding_Dengue_Case))
+SubClassOf(:Nausea_Vomiting ObjectSomeValuesFrom(:is_Case_Symptom_of :Chikungunya_Case))
+SubClassOf(:Nausea_Vomiting ObjectSomeValuesFrom(:is_Case_Symptom_of :Classic_Dengue_Case))
+SubClassOf(:Nausea_Vomiting ObjectSomeValuesFrom(:is_Case_Symptom_of :Zika_Case))
+SubClassOf(:Nausea_Vomiting ObjectSomeValuesFrom(:is_Symptom_of :A90_Classic_Dengue))
+SubClassOf(:Nausea_Vomiting ObjectSomeValuesFrom(:is_Symptom_of :A91_Bleeding_Dengue))
+SubClassOf(:Nausea_Vomiting ObjectSomeValuesFrom(:is_Symptom_of :A92.8_Zika))
+SubClassOf(:Nausea_Vomiting ObjectSomeValuesFrom(:is_Symptom_of :A92_Chikungunya))
+
+# Class: :Observation_Clinica_Monitoring (:Observation_Clinica_Monitoring)
+
+AnnotationAssertion(rdfs:comment :Observation_Clinica_Monitoring "Obervação")
+SubClassOf(:Observation_Clinica_Monitoring :Treatment)
+SubClassOf(:Observation_Clinica_Monitoring ObjectSomeValuesFrom(:is_Treatment_of :Bleeding_Dengue_Treatment))
+
+# Class: :Oral_Hydration (:Oral_Hydration)
+
+AnnotationAssertion(rdfs:comment :Oral_Hydration "Hidratação Oral")
+SubClassOf(:Oral_Hydration :Treatment)
+SubClassOf(:Oral_Hydration ObjectSomeValuesFrom(:is_Treatment_of :Bleeding_Dengue_Treatment))
+SubClassOf(:Oral_Hydration ObjectSomeValuesFrom(:is_Treatment_of :Chikungunya_Treatment))
+SubClassOf(:Oral_Hydration ObjectSomeValuesFrom(:is_Treatment_of :Classic_Dengue_Treatment))
+SubClassOf(:Oral_Hydration ObjectSomeValuesFrom(:is_Treatment_of :Zika_Treatment))
+
+# Class: :Partition_Value (:Partition_Value)
+
+SubClassOf(:Partition_Value :Symptom)
+SubClassOf(:Partition_Value ObjectUnionOf(:Abdominal_Pain_Intense :Headache_Intense :Intense_Pain_Joints :Joint_Edema__Periarticular))
+DisjointClasses(:Partition_Value :Treatment)
+
+# Class: :Red_Stains (:Red_Stains)
+
+AnnotationAssertion(rdfs:comment :Red_Stains "manchas Vermelhas")
+SubClassOf(:Red_Stains :Symptom)
+SubClassOf(:Red_Stains ObjectSomeValuesFrom(:is_Case_Symptom_of :Bleeding_Dengue_Case))
+SubClassOf(:Red_Stains ObjectSomeValuesFrom(:is_Case_Symptom_of :Chikungunya_Case))
+SubClassOf(:Red_Stains ObjectSomeValuesFrom(:is_Case_Symptom_of :Classic_Dengue_Case))
+SubClassOf(:Red_Stains ObjectSomeValuesFrom(:is_Case_Symptom_of :Zika_Case))
+SubClassOf(:Red_Stains ObjectSomeValuesFrom(:is_Symptom_of :A90_Classic_Dengue))
+SubClassOf(:Red_Stains ObjectSomeValuesFrom(:is_Symptom_of :A91_Bleeding_Dengue))
+SubClassOf(:Red_Stains ObjectSomeValuesFrom(:is_Symptom_of :A92.8_Zika))
+SubClassOf(:Red_Stains ObjectSomeValuesFrom(:is_Symptom_of :A92_Chikungunya))
+
+# Class: :Respiratory_Distress (:Respiratory_Distress)
+
+AnnotationAssertion(rdfs:comment :Respiratory_Distress "Dificuldades Respirátorias")
+SubClassOf(:Respiratory_Distress :Symptom)
+SubClassOf(:Respiratory_Distress ObjectAllValuesFrom(:is_Case_Symptom_of :Bleeding_Dengue_Case))
+SubClassOf(:Respiratory_Distress ObjectAllValuesFrom(:is_Symptom_of :A91_Bleeding_Dengue))
+
+# Class: :Rest (:Rest)
+
+AnnotationAssertion(rdfs:comment :Rest "Descansar")
+SubClassOf(:Rest :Treatment)
+SubClassOf(:Rest ObjectSomeValuesFrom(:is_Treatment_of :Bleeding_Dengue_Treatment))
+SubClassOf(:Rest ObjectSomeValuesFrom(:is_Treatment_of :Chikungunya_Treatment))
+SubClassOf(:Rest ObjectSomeValuesFrom(:is_Treatment_of :Classic_Dengue_Treatment))
+SubClassOf(:Rest ObjectSomeValuesFrom(:is_Treatment_of :Zika_Treatment))
+
+# Class: :Shaking (:Shaking)
+
+AnnotationAssertion(rdfs:comment :Shaking "Agitação")
+SubClassOf(:Shaking :Symptom)
+SubClassOf(:Shaking ObjectAllValuesFrom(:is_Case_Symptom_of :Bleeding_Dengue_Case))
+SubClassOf(:Shaking ObjectAllValuesFrom(:is_Symptom_of :A91_Bleeding_Dengue))
+
+# Class: :Strong (:Strong)
+
+AnnotationAssertion(rdfs:comment :Strong "Forte")
+SubClassOf(:Strong :Abdominal_Pain_Intense)
+SubClassOf(:Strong ObjectAllValuesFrom(:is_Case_Symptom_of :Bleeding_Dengue_Case))
+SubClassOf(:Strong ObjectAllValuesFrom(:is_Intense_Abdominal_Pain_of :A91_Bleeding_Dengue))
+
+# Class: :Swollen_glands (:Swollen_glands)
+
+AnnotationAssertion(rdfs:comment :Swollen_glands "Glandulas_Inchadas")
+SubClassOf(:Swollen_glands :Symptom)
+SubClassOf(:Swollen_glands ObjectAllValuesFrom(:is_Case_Symptom_of :Bleeding_Dengue_Case))
+SubClassOf(:Swollen_glands ObjectAllValuesFrom(:is_Symptom_of :A91_Bleeding_Dengue))
+
+# Class: :Symptom (:Symptom)
+
+DisjointClasses(:Symptom :Types_Of_Treatment)
+
+# Class: :Treatment (:Treatment)
+
+AnnotationAssertion(rdfs:comment :Treatment "Não existe tratamento específico para dengue sendo indicados a princípio, apenas sintomáticos e hidratação.")
+DisjointClasses(:Treatment :Types_Of_Treatment)
+
+# Class: :Types_Of_Treatment (:Types_Of_Treatment)
+
+
+# Class: :Zika_Case (:Zika_Case)
+
+EquivalentClasses(:Zika_Case ObjectIntersectionOf(:Case ObjectAllValuesFrom(:has_Case_Treatment :Zika_Treatment) ObjectAllValuesFrom(:has_Disease :A92.8_Zika)))
+
+# Class: :Zika_Treatment (:Zika_Treatment)
+
+SubClassOf(:Zika_Treatment :Types_Of_Treatment)
+SubClassOf(:Zika_Treatment ObjectSomeValuesFrom(:has_Treatment :Analgesics))
+SubClassOf(:Zika_Treatment ObjectSomeValuesFrom(:has_Treatment :Antiemetics))
+SubClassOf(:Zika_Treatment ObjectSomeValuesFrom(:has_Treatment :Follow_Medical_Advice))
+SubClassOf(:Zika_Treatment ObjectSomeValuesFrom(:has_Treatment :Oral_Hydration))
+SubClassOf(:Zika_Treatment ObjectSomeValuesFrom(:has_Treatment :Rest))
+
+
+############################
+#   Named Individuals
+############################
+
+# Individual: :Agitação (:Agitação)
+
+ClassAssertion(:Shaking :Agitação)
+
+# Individual: :Agua (:Agua)
+
+ClassAssertion(:Oral_Hydration :Agua)
+
+# Individual: :Agua_Coco (:Agua_Coco)
+
+ClassAssertion(:Oral_Hydration :Agua_Coco)
+
+# Individual: :Alta_Dor_Articulações (:Alta_Dor_Articulações)
+
+ClassAssertion(:High_Pain :Alta_Dor_Articulações)
+
+# Individual: :Alta_Dor_Cabeça (:Alta_Dor_Cabeça)
+
+ClassAssertion(:High :Alta_Dor_Cabeça)
+
+# Individual: :Baixa_Dor_periarticular (:Baixa_Dor_periarticular)
+
+ClassAssertion(:Light :Baixa_Dor_periarticular)
+
+# Individual: :Caso1 (:Caso1)
+
+ClassAssertion(:Case :Caso1)
+ObjectPropertyAssertion(:has_Case_Symptom :Caso1 :Alta_Dor_Cabeça)
+ObjectPropertyAssertion(:has_Case_Symptom :Caso1 :Dor_Atras_Olhos)
+ObjectPropertyAssertion(:has_Case_Symptom :Caso1 :Falta_Apetite)
+ObjectPropertyAssertion(:has_Case_Symptom :Caso1 :Febre)
+ObjectPropertyAssertion(:has_Case_Symptom :Caso1 :Manchas_Vermelhas)
+ObjectPropertyAssertion(:has_Case_Symptom :Caso1 :Media_Dor_Articulações)
+ObjectPropertyAssertion(:has_Case_Symptom :Caso1 :Moleza_Cansaço)
+ObjectPropertyAssertion(:has_Case_Symptom :Caso1 :Nauseas_Vomitos)
+ObjectPropertyAssertion(:has_Case_Treatment :Caso1 :Tratamento1)
+ObjectPropertyAssertion(:has_Disease :Caso1 :Doença1)
+
+# Individual: :Caso10 (:Caso10)
+
+ClassAssertion(:Case :Caso10)
+
+# Individual: :Caso11 (:Caso11)
+
+ClassAssertion(:Case :Caso11)
+
+# Individual: :Caso12 (:Caso12)
+
+ClassAssertion(:Case :Caso12)
+
+# Individual: :Caso2 (:Caso2)
+
+ClassAssertion(:Case :Caso2)
+ObjectPropertyAssertion(:has_Case_Symptom :Caso2 :Conjuntivite)
+ObjectPropertyAssertion(:has_Case_Symptom :Caso2 :Moleza_Cansaço)
+ObjectPropertyAssertion(:has_Case_Symptom :Caso2 :Nauseas_Vomitos)
+ObjectPropertyAssertion(:has_Case_Treatment :Caso2 :Tratamento3)
+ObjectPropertyAssertion(:has_Disease :Caso2 :Doença3)
+
+# Individual: :Caso3 (:Caso3)
+
+ClassAssertion(:Case :Caso3)
+ObjectPropertyAssertion(:has_Case_Symptom :Caso3 :Intença-Dor_periarticular)
+ObjectPropertyAssertion(:has_Disease :Caso3 :Doença5)
+
+# Individual: :Caso4 (:Caso4)
+
+ClassAssertion(:Case :Caso4)
+
+# Individual: :Caso5 (:Caso5)
+
+ClassAssertion(:Case :Caso5)
+
+# Individual: :Caso6 (:Caso6)
+
+ClassAssertion(:Case :Caso6)
+
+# Individual: :Caso7 (:Caso7)
+
+ClassAssertion(:Case :Caso7)
+
+# Individual: :Caso8 (:Caso8)
+
+ClassAssertion(:Case :Caso8)
+
+# Individual: :Caso9 (:Caso9)
+
+ClassAssertion(:Case :Caso9)
+
+# Individual: :Confusão_Mental (:Confusão_Mental)
+
+ClassAssertion(:Mental_Confusion :Confusão_Mental)
+
+# Individual: :Conjuntivite (:Conjuntivite)
+
+ClassAssertion(:Conjunctivitis :Conjuntivite)
+
+# Individual: :Descansar (:Descansar)
+
+ClassAssertion(:Rest :Descansar)
+
+# Individual: :Dificuldades_Respiratorias (:Dificuldades_Respiratorias)
+
+ClassAssertion(:Respiratory_Distress :Dificuldades_Respiratorias)
+
+# Individual: :Doença1 (:Doença1)
+
+ClassAssertion(:Diseases :Doença1)
+
+# Individual: :Doença10 (:Doença10)
+
+ClassAssertion(:Diseases :Doença10)
+
+# Individual: :Doença11 (:Doença11)
+
+ClassAssertion(:Diseases :Doença11)
+
+# Individual: :Doença12 (:Doença12)
+
+ClassAssertion(:Diseases :Doença12)
+
+# Individual: :Doença2 (:Doença2)
+
+ClassAssertion(:Diseases :Doença2)
+
+# Individual: :Doença3 (:Doença3)
+
+ClassAssertion(:Diseases :Doença3)
+
+# Individual: :Doença4 (:Doença4)
+
+ClassAssertion(:Diseases :Doença4)
+
+# Individual: :Doença5 (:Doença5)
+
+ClassAssertion(:Diseases :Doença5)
+
+# Individual: :Doença6 (:Doença6)
+
+ClassAssertion(:Diseases :Doença6)
+
+# Individual: :Doença7 (:Doença7)
+
+ClassAssertion(:Diseases :Doença7)
+
+# Individual: :Doença8 (:Doença8)
+
+ClassAssertion(:Diseases :Doença8)
+
+# Individual: :Doença9 (:Doença9)
+
+ClassAssertion(:Diseases :Doença9)
+
+# Individual: :Dor_Atras_Olhos (:Dor_Atras_Olhos)
+
+ClassAssertion(:Eye_Back_Pain :Dor_Atras_Olhos)
+
+# Individual: :Falta_Apetite (:Falta_Apetite)
+
+ClassAssertion(:Lack_of_Appetite :Falta_Apetite)
+
+# Individual: :Febre (:Febre)
+
+ClassAssertion(:Fever :Febre)
+DataPropertyAssertion(:has_Upper_Value :Febre "40.0"^^xsd:double)
+
+# Individual: :Febre_37_graus (:Febre_37_graus)
+
+ClassAssertion(:Average_Fever :Febre_37_graus)
+
+# Individual: :Febre_40_graus (:Febre_40_graus)
+
+ClassAssertion(:High_Fever :Febre_40_graus)
+
+# Individual: :Fezes_Pretas (:Fezes_Pretas)
+
+ClassAssertion(:Black_Stool :Fezes_Pretas)
+
+# Individual: :Forte_Dor_Abdominal (:Forte_Dor_Abdominal)
+
+ClassAssertion(:Strong :Forte_Dor_Abdominal)
+
+# Individual: :Glandulas_Inchadas (:Glandulas_Inchadas)
+
+ClassAssertion(:Swollen_glands :Glandulas_Inchadas)
+
+# Individual: :Hemorragias_Boca (:Hemorragias_Boca)
+
+ClassAssertion(:Bleeding :Hemorragias_Boca)
+
+# Individual: :Hemorragias_Gengivas (:Hemorragias_Gengivas)
+
+ClassAssertion(:Bleeding :Hemorragias_Gengivas)
+
+# Individual: :Intença-Dor_periarticular (:Intença-Dor_periarticular)
+
+ClassAssertion(:Intense :Intença-Dor_periarticular)
+
+# Individual: :Manchas_Vermelhas_Pele (:Manchas_Vermelhas_Pele)
+
+ClassAssertion(:Red_Stains :Manchas_Vermelhas_Pele)
+
+# Individual: :Media_Dor_Articulações (:Media_Dor_Articulações)
+
+ClassAssertion(:Average_Pain :Media_Dor_Articulações)
+
+# Individual: :Media_dor_Cabeça (:Media_dor_Cabeça)
+
+ClassAssertion(:Average :Media_dor_Cabeça)
+
+# Individual: :Moleza_Cansaço (:Moleza_Cansaço)
+
+ClassAssertion(:Beauty_Tiredness :Moleza_Cansaço)
+
+# Individual: :Nauseas (:Nauseas)
+
+ClassAssertion(:Nausea_Vomiting :Nauseas)
+
+# Individual: :Nauseas_Vomitos (:Nauseas_Vomitos)
+
+ClassAssertion(:Nausea_Vomiting :Nauseas_Vomitos)
+
+# Individual: :Prurido (:Prurido)
+
+ClassAssertion(:Itching :Prurido)
+
+# Individual: :Sede_Excessiva (:Sede_Excessiva)
+
+ClassAssertion(:Excessive_Thirst :Sede_Excessiva)
+
+# Individual: :Soro_Caseiro (:Soro_Caseiro)
+
+ClassAssertion(:Oral_Hydration :Soro_Caseiro)
+
+# Individual: :Sucos_ (:Sucos_)
+
+ClassAssertion(:Oral_Hydration :Sucos_)
+
+# Individual: :Tratamento1 (:Tratamento1)
+
+ClassAssertion(:Types_Of_Treatment :Tratamento1)
+
+# Individual: :Tratamento10 (:Tratamento10)
+
+ClassAssertion(:Types_Of_Treatment :Tratamento10)
+
+# Individual: :Tratamento11 (:Tratamento11)
+
+ClassAssertion(:Types_Of_Treatment :Tratamento11)
+
+# Individual: :Tratamento12 (:Tratamento12)
+
+ClassAssertion(:Types_Of_Treatment :Tratamento12)
+
+# Individual: :Tratamento2 (:Tratamento2)
+
+ClassAssertion(:Types_Of_Treatment :Tratamento2)
+
+# Individual: :Tratamento3 (:Tratamento3)
+
+ClassAssertion(:Types_Of_Treatment :Tratamento3)
+
+# Individual: :Tratamento4 (:Tratamento4)
+
+ClassAssertion(:Types_Of_Treatment :Tratamento4)
+
+# Individual: :Tratamento5 (:Tratamento5)
+
+ClassAssertion(:Types_Of_Treatment :Tratamento5)
+
+# Individual: :Tratamento6 (:Tratamento6)
+
+ClassAssertion(:Types_Of_Treatment :Tratamento6)
+
+# Individual: :Tratamento7 (:Tratamento7)
+
+ClassAssertion(:Types_Of_Treatment :Tratamento7)
+
+# Individual: :Tratamento8 (:Tratamento8)
+
+ClassAssertion(:Types_Of_Treatment :Tratamento8)
+
+# Individual: :Tratamento9 (:Tratamento9)
+
+ClassAssertion(:Types_Of_Treatment :Tratamento9)
+
+# Individual: :Vomitos (:Vomitos)
+
+ClassAssertion(:Nausea_Vomiting :Vomitos)
+
+# Individual: : (:)
+
+ObjectPropertyAssertion(:has_Case_Symptom <http://www.semanticweb.org/n4050/ontologies/2017/7/untitled-ontology-189#1> :Forte_Dor_Abdominal)
+ObjectPropertyAssertion(:has_Disease <http://www.semanticweb.org/n4050/ontologies/2017/7/untitled-ontology-189#1> :doença111)
+
+
+DisjointClasses(:A92.8_Zika :A92_Chikungunya :Dengue)
+DisjointClasses(:Abdominal_Pain_Intense :Headache_Intense :Intense_Pain_Joints)
+DisjointClasses(:Abdominal_Pain_Intense :Headache_Intense :Intense_Pain_Joints :Joint_Edema__Periarticular)
+DisjointClasses(:Analgesics :Antiemetics :Antipruritics :Cold_Pack :Fluid_Replacement_Therapy :Follow_Medical_Advice :Follow_Up_Platelets :Moderate_Exercise_And_Movement :Observation_Clinica_Monitoring :Oral_Hydration :Rest)
+DisjointClasses(:Bleeding_Dengue_Treatment :Chikungunya_Treatment :Classic_Dengue_Treatment :Zika_Treatment)
+DisjointClasses(:Bleeding_Dengue_Treatment :Classic_Dengue_Treatment :Zika_Treatment)
+DisjointClasses(:Case :Diseases :Symptom :Treatment :Types_Of_Treatment)
+DisjointClasses(:Diseases :Symptom :Treatment)
+)
